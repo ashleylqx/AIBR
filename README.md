@@ -6,7 +6,7 @@ PyTorch code for "Information Bottleneck-Inspired Spatial Attention for Robust S
 - Python 3.8.19
 - torch 1.13.1+cu117
 - torchvision 0.14.1+cu117
-- mmcv-full 2.1.0
+- mmcv 2.1.0
 - mmsegmentation 1.2.2
 
 
@@ -141,7 +141,7 @@ PORT=29501 bash tools/dist_test.sh ${CONFIG} ${CKPT} ${GPUS}
 
 ## Model Weights Download
 
-Pre-trained models and visualized maps can be downloaded from [BaiduDisk](https://pan.baidu.com/s/1KUqYZZelZhPwIiCVNW9OFA?pwd=4iit). You may download the model weights, put them into `work_dirs`, and run the test command above.
+Pre-trained models and visualized maps can be downloaded from [BaiduDisk](https://pan.baidu.com/s/1KUqYZZelZhPwIiCVNW9OFA?pwd=4iit). You may download the model weights, put them into `work_dirs`, and run the test commands above.
 
 ## Related Repositories
 - [MMSegmentation](https://github.com/open-mmlab/mmsegmentation)
